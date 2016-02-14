@@ -7,10 +7,12 @@ public class test extends TestCase{
 	}
 
 public int convertInt2String(String input) throws Exception{
-	int result = 0;
-	if(input!=null && !input.equals("")){
-		result = Integer.parseInt(input);
-	}else{
+	int result = 0; /////sdfgr
+	if(input!=null && !input.equals("")){//sdasdf
+		result = Integer.parseInt(input);//563
+	}else{//tryewtr
+
+		//erywertert
 		throw new Exception("Invalid input");
 	}
 	return result;
