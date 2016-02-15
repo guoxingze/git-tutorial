@@ -12,10 +12,14 @@ public void foo(){
 	
 	
 public int convertInt2String(String input) throws Exception{
-	int result = 0;
-	if(input!=null && !input.equals("")){
-		result = Integer.parseInt(input);
-	}else{
+	int jiaLiaZi = 2;
+	int result = 0; /////sdfgr
+	if(input!=null && !input.equals("")){//sdasdf
+		int jiaLiaZi = 2;
+		result = Integer.parseInt(input);//563
+	}else{//tryewtr
+
+		//erywertert
 		throw new Exception("Invalid input");
 	}
 	return result;
