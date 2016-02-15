@@ -4,6 +4,9 @@ import junit.framework.*;
 public class PenDaiMaTest extends TestCase{
 	private PenDaiMa pen;
 	@Override
+	
+	
+	
 	protected void setUp() throws Exception {
 		// TODO Auto-generated method stub
 		super.setUp();
