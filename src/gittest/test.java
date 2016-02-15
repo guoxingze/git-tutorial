@@ -6,6 +6,11 @@ public class test extends TestCase{
 		return a;
 	}
 
+public void foo(){
+	System.out.println("abc");
+}
+	
+	
 public int convertInt2String(String input) throws Exception{
 	int result = 0;
 	if(input!=null && !input.equals("")){
